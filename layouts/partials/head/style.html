@@ -1,0 +1,18 @@
+{{- /*
+Project override for hugo-theme-stack.
+
+The theme compiles SCSS via Hugo Pipes `toCSS`, which requires Hugo Extended.
+If the user is running the non-extended Hugo binary, `toCSS` will fail and prevent `hugo server` from starting.
+
+This override keeps the site buildable by skipping SCSS when Hugo Extended is unavailable.
+*/ -}}
+
+{{- if hugo.IsExtended -}}
+  {{- $sass := resources.Get "scss/style.scss" -}}
+  {{- $style := $sass | toCSS | minify | resources.Fingerprint "sha256" -}}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+{{- else -}}
+  {{- warnf "hugo-theme-stack: Hugo Extended is required to compile SCSS (toCSS). Install the extended build to enable styling." -}}
+{{- end -}}
+
+
