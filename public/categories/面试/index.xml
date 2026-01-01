@@ -7,7 +7,195 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>codersxy</copyright>
-        <lastBuildDate>Thu, 01 Jan 2026 14:09:52 +0800</lastBuildDate><atom:link href="https://sxyfe.github.io/categories/%E9%9D%A2%E8%AF%95/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 01 Jan 2026 20:09:08 +0800</lastBuildDate><atom:link href="https://sxyfe.github.io/categories/%E9%9D%A2%E8%AF%95/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>2025前端面试高频手写题</title>
+        <link>https://sxyfe.github.io/p/2025%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%AB%98%E9%A2%91%E6%89%8B%E5%86%99%E9%A2%98/</link>
+        <pubDate>Thu, 01 Jan 2026 20:09:08 +0800</pubDate>
+        
+        <guid>https://sxyfe.github.io/p/2025%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%AB%98%E9%A2%91%E6%89%8B%E5%86%99%E9%A2%98/</guid>
+        <description>&lt;h3 id=&#34;&#34;&gt;
+&lt;/h3&gt;&lt;h1 id=&#34;1promiseall-实现--4次&#34;&gt;1、Promise.all 实现  4次
+&lt;/h1&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;次数&lt;/font&gt;&lt;/th&gt;
+          &lt;th&gt;日期&lt;/th&gt;
+          &lt;th&gt;公司&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;1&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;11/28&lt;/td&gt;
+          &lt;td&gt;高德一面&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;12/2&lt;/td&gt;
+          &lt;td&gt;美团核心本地商业一面&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;3&lt;/td&gt;
+          &lt;td&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;12/18&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;爱奇艺三面&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;4&lt;/td&gt;
+          &lt;td&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;12/24&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;小红书二面&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;2带并发限制的异步调度器--4次&#34;&gt;2、带并发限制的异步调度器  4次
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;次数&lt;/font&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;   &lt;/font&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;日期&lt;/font&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;   &lt;/font&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;公司&lt;/font&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;   &lt;/font&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;问题&lt;/font&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;   &lt;/font&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;写的情况   &lt;/font&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;1&lt;/font&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;   &lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;11/28&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;高德打车一面&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;   &lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;   &lt;/font&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;2&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;12/8&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;快手KIM 一面&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;&lt;/font&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;   &lt;/font&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;3&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;   &lt;/font&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;12/12&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;   &lt;/font&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;淘天直播二面&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;   &lt;/font&gt;&lt;font style=&#34;color:rgb(17, 124, 238);&#34;&gt;2、淘天二面 调度器+异步请求模拟+结果收集&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;   &lt;/font&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;最后返回结果时，异步问题没解决，本来需要返回Promise实例，借助resolve来返回，我写的是同步的直接return res&lt;/font&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;4   &lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;12/16&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;Xtransfer一面（上海）&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;3防抖节流&#34;&gt;3、防抖节流
+&lt;/h1&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;次数&lt;/th&gt;
+          &lt;th&gt;日期&lt;/th&gt;
+          &lt;th&gt;公司&lt;/th&gt;
+          &lt;th&gt;问题&lt;/th&gt;
+          &lt;th&gt;优化项&lt;/th&gt;
+          &lt;th&gt;写的情况&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;12/3&lt;/td&gt;
+          &lt;td&gt;优酷一面&lt;/td&gt;
+          &lt;td&gt;防抖和节流实现&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;12/16&lt;/td&gt;
+          &lt;td&gt;字节番茄一面&lt;/td&gt;
+          &lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.yuque.com/codertcl/pgzxph/kr5q08gyngac8npy#ANydB&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;自定义hooks useDebounceFn&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;1、useEffect清理timer&lt;br/&gt;2、缓存返回的函数&lt;br/&gt;3、支持立即执行&lt;br/&gt;4、支持取消&lt;/td&gt;
+          &lt;td&gt;1、忘了清理timer&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;4数组元素转树形层级数组--3&#34;&gt;4、数组元素转树形层级数组  3
+&lt;/h1&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;次数&lt;/font&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;日期&lt;/font&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;   &lt;/font&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;公司&lt;/font&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;   &lt;/font&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;备注&lt;/font&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;11/25&lt;/td&gt;
+          &lt;td&gt;高途一面&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;12/3&lt;/td&gt;
+          &lt;td&gt;滴滴网约车&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;3&lt;/td&gt;
+          &lt;td&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;12/22&lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;小红书&lt;/td&gt;
+          &lt;td&gt;二次追问，一次遍历能否实现&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;5深拷贝&#34;&gt;5、深拷贝
+&lt;/h1&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;次数&lt;/font&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;日期&lt;/font&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;公司&lt;/font&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;字节番茄 一面&lt;/td&gt;
+          &lt;td&gt;12/16&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;6事件总线实现&#34;&gt;6、事件总线实现
+&lt;/h1&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;次数&lt;/font&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;   &lt;/font&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;日期&lt;/font&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;   &lt;/font&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;公司&lt;/font&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;   &lt;/font&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;优化项   &lt;/font&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;1   &lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;12/2   &lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;美团一面   &lt;/font&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;off时无需转换为将函数字符串，直接===判断是否为同一个函数即可&lt;/font&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;font style=&#34;color:rgb(38, 38, 38);&#34;&gt;  
+&lt;/font&gt;
+&lt;h1 id=&#34;7二叉树&#34;&gt;7、二叉树
+&lt;/h1&gt;&lt;h2 id=&#34;1二叉树最小深度-猿辅导一面-124&#34;&gt;1、二叉树最小深度 （猿辅导一面 12/4）
+&lt;/h2&gt;&lt;h2 id=&#34;2二叉树的深度-淘天直播-一面--125&#34;&gt;2、二叉树的深度 （淘天直播 一面  12/5）
+&lt;/h2&gt;&lt;h2 id=&#34;3二叉树层序遍历---xtransfer-一面1216&#34;&gt;3、二叉树层序遍历   （XTransfer 一面12/16）
+&lt;/h2&gt;</description>
+        </item>
+        <item>
         <title>2025求职面试记录</title>
         <link>https://sxyfe.github.io/p/2025%E6%B1%82%E8%81%8C%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%95/</link>
         <pubDate>Thu, 01 Jan 2026 14:09:52 +0800</pubDate>
