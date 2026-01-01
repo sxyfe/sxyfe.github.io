@@ -1,6 +1,6 @@
 +++
 date = '2026-01-01T14:09:52+08:00'
-draft = true
+draft = false
 title = '2025求职面试记录'
 categories = ['面试']
 +++
