@@ -1,13 +1,13 @@
 ---
-title: Links
+title: 三方链接
 links:
   - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
+    description: 个人GitHub 
+    website: https://github.com/sxyfe
     image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-  - title: TypeScript
-    description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
-    website: https://www.typescriptlang.org
+  - title: 语雀
+    description: 个人知识库
+    website: https://www.yuque.com/codertcl
     image: ts-logo-128.jpg
 menu:
     main: 
